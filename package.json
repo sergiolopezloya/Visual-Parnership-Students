@@ -1,0 +1,29 @@
+{
+  "name": "visual-parnership-students",
+  "version": "1.0.0",
+  "description": "Prueba con express para Launch X",
+  "main": "server.js",
+  "scripts": {
+    "test": "node ./node_modules/jest/bin/jest.js",
+    "linter": "node ./node_modules/eslint/bin/eslint.js",
+    "linter-fix": "node ./node_modules/eslint/bin/eslint.js . --fix",
+    "server": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sergiolopezloya/Visual-Parnership-Students.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/sergiolopezloya/Visual-Parnership-Students/issues"
+  },
+  "homepage": "https://github.com/sergiolopezloya/Visual-Parnership-Students#readme",
+  "devDependencies": {
+    "eslint": "^8.14.0",
+    "jest": "^27.5.1"
+  },
+  "dependencies": {
+    "express": "^4.18.0"
+  }
+}
