@@ -39,6 +39,6 @@ Especificando el parámetro "certification" filtra el listado de estudiantes que
 
 `http://localhost:3000/v1/students/credits/:credits`
 
-Obtiene el listado de estudiantes que tienen cierta cantidad de créditos especificados por el último parámetro.
+Obtiene el listadode estudiantes que tienen cierta cantidad de créditos especificados por el último parámetro.
 
 **Valor devuelto:** arreglo con el listado de estudiantes que tienen más de la cantidad de créditos especificada.
