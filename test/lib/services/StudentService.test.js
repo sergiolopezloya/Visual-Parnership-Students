@@ -1,6 +1,5 @@
 const StudentService = require("../../../lib/services/StudentService");
 const StudentController = require("../../../lib/controllers/StudentController");
-const express = require("express");
 
 describe("StudentService", () => {
     test("Filtrar estudiantes con certificacion", () => {
