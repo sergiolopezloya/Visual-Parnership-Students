@@ -9,6 +9,11 @@ app.get("/v1/students", (request, response) => {
     response.json(students);
 });
 
+app.get("/v1/students/certification", (request, response) => {
+    const students = StudentController.getStudentsEmailWithCertification();
+    response.json(students);
+});
+
 app.listen(port, () => {
     console.log(`FizzBuzz API in localhost:${port}`);
 });
