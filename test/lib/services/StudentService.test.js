@@ -4,7 +4,7 @@ const StudentController = require("../../../lib/controllers/StudentController");
 describe("StudentService", () => {
     test("Filtrar estudiantes con certificacion", () => {
         const students = StudentController.getAllStudents();
-        const data = StudentService.filterByCertificationEmail(students);
+        const data = StudentService.filterByCertification(students);
         expect(data.length).toBe(29);
     });
 });
