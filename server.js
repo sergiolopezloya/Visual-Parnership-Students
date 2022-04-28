@@ -14,6 +14,12 @@ app.get("/v1/students/certification", (request, response) => {
     response.json(students);
 });
 
+app.get("/v1/students/credits/:amount", (request, response) => {
+    const amount = request.params.amount;
+    const students = StudentController.getStudentsWithCredits(amount);
+    response.json(students);
+});
+
 app.listen(port, () => {
     console.log(`FizzBuzz API in localhost:${port}`);
 });
